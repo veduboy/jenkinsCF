@@ -1,0 +1,7 @@
+---
+applications:
+- name: cf-jenkins
+  path: target/jenkins-cf-0.0.1-SNAPSHOT.jar
+  memory: 768M
+  instances: 1
+  random-route: true
