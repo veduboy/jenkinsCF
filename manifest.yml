@@ -1,8 +1,8 @@
 ---
 applications:
-- name: cf-jenkins
-  path: target/jenkins-cf-0.0.1-SNAPSHOT.jar
+- name: cf-jenkins  
   memory: 768M
   instances: 1
   random-route: true
+  path: target/jenkins-cf-0.0.1-SNAPSHOT.jar
   buildpack: https://github.com/cloudfoundry/java-buildpack
